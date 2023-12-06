@@ -1,0 +1,159 @@
+html {
+	background-color: #232b34;
+}
+body {
+	background-color: #232b34;
+}
+
+body { 
+	background-color: #232b34;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+h1 {
+	font-size: 90px;
+	color: #232b34;
+	font-family:'Kanit', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Smooch', cursive;
+}
+header {
+	text-align: center;
+	background-color: whitesmoke;
+	color: #232b34;
+	padding: 40px;
+}
+
+p {
+	font-family:'Kanit', sans-serif;
+	margin: 50px;
+}
+.about {
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	background-color: #232b34;
+	color: #fff;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+#bigbox {
+	width: 100%;
+	height: auto;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+#menu {
+	width: 100%; 
+	height: 22px;
+	margin-top: 40px;
+}
+
+.hovermenu ul{
+font: bold 14px;
+height: 22px;
+width: 100%;
+background-color: none;
+}
+
+
+.hovermenu ul li{
+list-style: none;
+display: inline;
+font-family: 'Smooch', cursive;
+}
+
+.hovermenu ul li a{
+text-decoration: none;
+color: whitesmoke;
+background-color: #232b34;
+width: 100px;
+padding: 15px;
+border-radius: 25px;
+}
+
+.hovermenu ul li a:hover{
+background-color: gray;
+
+}
+
+
+
+#row3 {
+	height: 10px;
+	width: 900px;
+	background-color: #036;
+}
+
+
+#row4 { 
+	height: 10px; 
+	width: 100%; 
+	background-color:#fff;
+	clear:both;
+}
+#row5 { height: 22px;
+	width: 100%;
+	font-size: 12px;
+	background-color:#fff;
+	color:#232b34;
+	margin-top: 2px;
+}
+#row5 a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#box3 {height: 17px;
+width: 100%;
+padding-top: 3px;
+padding-left: 5px;
+}
+
+#box4 {
+width: 500px;
+height: 17px;
+padding-top: 3px;
+}
+
+.container-fluid {
+	background-color: #232b34;
+}
+
+.title {
+	padding: 5px;
+	background-color: #232b34;
+}
+.card-title {
+	color:#232b34;
+	font-size: 12px;
+	background-color: #fff;
+	width: 45%;
+	border-radius: 10px;
+	text-align: center;
+}
+.card-img {
+	height: 100%;
+	width: 100%;
+}
+
+.card bg-dark text-white {
+	margin: 10px;
+	padding: 10px;
+	width: 400px;
+	gap: 10px;
+
+}
+
+

@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	background-color: #232b34;
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	margin: 10px;
+}
+
+.gridlayout {
+	display: grid;
+	grid-template-areas: 
+	"header"
+	"menu"
+	"graphicartist"
+	"cartoonist"
+	"footer";
+
+}
+
+h1 {
+	font-size: 50;
+	font-family:'Kanit', sans-serif;
+}
+
+
+#header {
+	grid-column-start:1/2;
+	text-align: center;
+	align-items: center;
+	grid-area: header;
+	color: #232b34;
+	background-color: whitesmoke;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -20px;
+	align-content: center;
+	align-items: center;
+}
+
+.menu ul{
+grid-column: 1/2;
+grid-area: menu;
+display: flex;
+flex-wrap: nowrap;
+flex-direction:row;
+text-align: center;
+width: 50%;
+background-color: whitesmoke;
+color: #232b34;
+margin-left: -20px;
+margin-right: -20px;
+gap: 5px;
+}
+
+.menu ul li{
+list-style: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+background-color: whitesmoke;
+color: #232b34;
+font-family: 'Smooch', cursive;
+}
+
+.home {
+	margin-left: 85px;
+}
+.contact {
+	margin-right: 100px;
+}
+.menu ul li a{
+text-decoration: none;
+color: white;
+background-color: #191e16;
+padding: 15px;
+border-radius: 25px;
+border-width: 5px;
+font-weight:bolder;
+}
+
+.menu ul li a:hover{
+background-color: #a87f5d
+}
+
+.formContainer {
+	color: white;
+	width: 1rem;
+	grid-column: 1/2;
+}
+
+button {
+margin: 1rem;
+background-color: #a87f5d;
+cursor: pointer;
+font-size: large;
+color: white;
+}
+
+button:hover {
+	background-color: #232b34;
+}
+
+
+#graphicartist {
+	padding-top: 1rem;
+	text-align: center;
+	color: white;
+	border-style:double;
+	margin-bottom: 1rem;
+	border-color: #191e16;
+	font-family: 'Smooch', cursive;
+}
+
+#graphicartistpic {
+	padding: 1rem;
+	font-family: 'Smooch', cursive;
+}
+
+#cartoonistpic {
+	padding: 1rem;
+	font-family: 'Smooch', cursive;
+}
+
+#cartoonist {
+	text-align: center;
+	padding-top: 1rem;
+	color: white;
+	border-style:double;
+	margin-bottom: 2rem;
+	border-color: #191e16;
+	font-family: 'Smooch', cursive;
+}
+
+
+#footer { 
+	height: 22px;
+	width: 100%;
+	font-size: 12px;
+	background-color:#191e16;
+	color: white;
+	margin-top: 2px;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+	.gridlayout {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#graphicartistpic {
+		size: 100%;
+	}
+
+	#cartoonistpic {
+		size: 100%;
+	}
+
+	#header {
+		grid-column: 1/3;
+	}
+
+	#nav {
+		grid-column: 1/6;
+	}
+	.menu ul{
+		text-align: center;
+		width: 100%;
+		display: flex;
+
+		}
+		
+		.menu ul li{
+		list-style: none;
+		width: 100%;
+		}
+	.menu {
+		align-content: center;
+		align-items: center;
+		background-color: whitesmoke
+	}
+
+
+	#graphicartist {
+	grid-column: 1/2;
+	}
+
+	#cartoonist {
+	grid-column: 2/3;
+	margin-bottom: 1rem;
+	}
+	
+	.formContainer {
+		grid-column: 1/3;
+	}
+
+
+	#footer {
+		background-color:#191e16;
+		align-self:last baseline;
+		grid-column: 1/3;
+	}
+}
